@@ -1,0 +1,6 @@
+Hello, world
+Python file handling is easy to learn.
+This line is added later.
+Hello, world
+Python file handling is easy to learn.
+This line is added later.
