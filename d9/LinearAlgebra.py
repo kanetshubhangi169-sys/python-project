@@ -44,3 +44,32 @@ B = np.array([3,4])
 result = np.dot(A,B)
 
 print(result)
+
+
+
+#probability
+red_balls = 3
+blue_balls = 5
+
+total = red_balls + blue_balls
+
+probability_red = red_balls/blue_balls
+
+print("probability of red balls:",probability_red)
+print("percentage:",probability_red * 100,"%")
+
+
+#Bayes theorem
+cricketers = 20
+non_cricketers = 80
+
+jersey_cricketers = 18
+jersey_non_cricketers = 8
+
+total_jersey = jersey_cricketers + jersey_non_cricketers
+
+probability = jersey_cricketers / total_jersey
+
+print("Probability of being a cricketer if wearing jersey:")
+print(probability)
+print(probability * 100, "%")
