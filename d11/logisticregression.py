@@ -48,4 +48,3 @@ model.fit(x,y)
 prediction = model.predict([[7]])
 print(prediction[0])
 
-#
