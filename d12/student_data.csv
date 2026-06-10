@@ -1,0 +1,11 @@
+﻿Student_ID,Name,Age,Gender,Study_Hours,Attendance (%),Marks,Department,City
+1,Asha,20,F,5,90,78,IT,Mumbai
+2,Rohan,21,M,3,80,65,CS,Pune
+3,Neha,19,F,6,,85,IT,Mumbai
+4,Arjun,22,M,2,70,55,CS,Delhi
+5,Priya,20,F,4,88,72,IT,Pune
+6,Kabir,23,M,,60,50,CS,Mumbai
+7,Sara,21,F,7,95,92,IT,Delhi
+8,Vivek,22,M,3,75,60,CS,Pune
+9,Isha,20,F,5,85,80,IT,Mumbai
+10,Rahul,21,M,4,82,,CS,Delhi
