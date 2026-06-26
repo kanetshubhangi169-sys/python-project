@@ -1,0 +1,6 @@
+.gitignore
+d26/class_names.json
+d26/collect_data.py
+d26/face_recognition_model.h5
+d26/recognize_face.py
+d26/train_model.py

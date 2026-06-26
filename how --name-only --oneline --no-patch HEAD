@@ -1,0 +1,12 @@
+[33mcommit 3a150d5fe461d2d89b66c24ec35a7c2526cd9b4f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: kanetshubhangi169-sys <kanetshubhangi169@gmail.com>
+Date:   Fri Jun 26 15:53:32 2026 +0530
+
+    Update d26 files
+
+.gitignore
+d26/class_names.json
+d26/collect_data.py
+d26/face_recognition_model.h5
+d26/recognize_face.py
+d26/train_model.py
