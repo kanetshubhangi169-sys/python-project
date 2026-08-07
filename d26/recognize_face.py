@@ -50,11 +50,23 @@ while True:
 
     for (x, y, w, h) in faces:
 
-        face = frame[y:y+h, x:x+w]
+        padding = 40
+
+        x1 = max(0, x - padding)
+        y1 = max(0, y - padding)
+        x2 = min(frame.shape[1], x + w + padding)
+        y2 = min(frame.shape[0], y + h + padding)
+
+        face = frame[y1:y2, x1:x2]
 
         face = cv2.resize(
             face,
             (224, 224)
+        )
+
+        face = cv2.cvtColor(
+            face,
+            cv2.COLOR_BGR2RGB
         )
 
         face = face.astype(
@@ -84,7 +96,7 @@ while True:
 
             name = class_names[idx]
             color = (0, 255, 0)
-
+            
         cv2.rectangle(
             frame,
             (x, y),
