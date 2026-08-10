@@ -112,6 +112,66 @@
     # for j in range(1,i+1):
         # print(j,end="")
     # print()
+# marks = 75
+# if marks>=35:
+#     print("Pass")
+# else:
+#     print("fail")
+
+# while True:
+    
+#     a=int(input("Enter number: "))
+#     b=int(input("Enter number: "))
+
+#     print(f"Even number between {a} and {b} :")
+    
+#     print("\neven number")
+#     for i in range(a,b):
+#         if i % 2==0:
+#             print(i, end=" ")
+
+#     print("\nodd number")
+#     for i in range(a,b):
+#         if i % 2 != 0:
+#             print(i,end=" ")
+
+#     print()
+            
+#     choice=input("if you want to continoue (yes/no):")
+    
+#     if choice == "no":
+#         print("thank you")
+#         break
+
+# text = input("Enter sentence: ")
+
+# words = text.split()
+
+# longest = max(words, key=len)
+
+# print("Longest word =", longest)
 
 
+
+# for i in range(3):
+#     for j in range(2):
+#         print(i, j)
+
+# num = int(input("enter number: "))
+# reverse=0
+
+# while num>0:
+#     digit=num%10
+#     reverse=reverse*10+digit
+#     num=num//10
+# print(reverse)
+
+a=[1,2,4,3,1,2,3]
+num=int(input("enter number:"))
+count=0
+
+for i in a:
+    if i==num:
+        count+=1
+print(count)
 
