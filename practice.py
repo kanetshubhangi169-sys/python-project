@@ -455,3 +455,60 @@
 # print(arr + 5)
 # print(arr * 2)
 
+# num = [10,20,30]
+# num.insert(4,100)
+# print(num)
+
+# for i in range(1,6):
+#     for j in range(1, 6 - i):
+#         print(" ",end="")
+#     for j in range(1, 2 * i):
+#         print("*",end="")
+#     print()
+# for i in range(4,0,-1):
+#     for j in range(1, 6 - i):
+#         print(" ",end="")
+#     for j in range(1, 2 * i):
+#         print("*", end = "")
+#     print()
+
+# for i in range(1, 5):
+#     for j in range(1, 5):
+#         if j == i:
+#             print(j, end = "")
+#         elif j > i:
+#             print("*", end = "")
+#         else:
+#             print("#", end = "")
+#     print()
+
+# for i in range(1,6):
+#     for j in range(5 , i - 1 , -1):
+#         print(j , end ="")
+#     print()
+
+
+# total = 0
+# for i in range(2,101):
+#     for j in range(2,i):
+#         if i % j == 0:
+#             break
+#     else:
+#             total = total + 1
+# print(total)
+
+# for i in range(2,30):
+#     for j in range(2,i):
+#         if i % j == 0:
+#             break
+#     else:
+#         print(i)
+
+# for i in range(1,6):
+#     for j in range(1,6 -i):
+#         print(" ",end="")
+#     for j in range(1,2*i):
+#         print("*",end="")
+#     print()
+
+
