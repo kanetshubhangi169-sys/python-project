@@ -511,4 +511,132 @@
 #         print("*",end="")
 #     print()
 
+text = "python programming"
 
+count = 0
+
+for ch in text:
+    if ch in "aeiouAEIOU":
+        count = count + 1
+
+print("Total vowels =", count)
+
+
+
+email = "shubhangi.kanet@featsystem.com"
+
+email = email.replace(".", "")
+email = email.replace("featsystem.com", "gmail.com")
+
+print(email)
+
+
+
+email = "shubhangi.kanet@featsystem.com"
+
+username , domain = email.split("@")
+username = username.replace(".","")
+domain = domain.replace("featsystem","gmail")
+
+new_email = username + "@" + domain
+print(new_email)
+
+
+
+while True:
+    num = int(input("Enter number:"))
+    if num < 2:
+        print("not prime")
+    else:
+        for i in range(2,num):
+            if num % 2 == 0:
+                print("not prime")
+                break
+        else:
+            print("prime")
+    choice = input("do you continue? (yes/no):")
+    if choice.lower() == "no":
+         print("program stoped.")
+         break
+
+
+#encapsulation
+class student:
+    def __init__(self,name):
+        self.name=name
+        self.__marks=90
+    
+    def get_marks(self):
+        return self.__marks
+
+s = student("shubhangi")
+print(s.name)
+print(s.get_marks())
+
+
+
+#polymorphism
+class dog:
+    def sound(self):
+        print("dog bark")
+
+class cat:
+    def sound(self):
+        print("cat meow")
+    
+dog = dog()
+cat = cat()
+dog.sound()
+cat.sound()
+
+
+#inheritance
+class Animal:
+    def eat(self):
+        print("animal eat")
+class dog(Animal):
+    def bark(self):
+        print("dog bark")
+
+d = dog()
+d.bark()
+d.eat()
+
+
+#abstraction
+class car:
+    def start(self):
+        print("car started")
+c = car()
+c.start()
+
+#inheritance+encapsulation
+class vehical:
+    def start(self):
+        print("vehical start")
+class car(vehical):
+    def drive(self):
+        self.__speed=100
+        print("car is starting")
+
+    def get_speed(self):
+        return self.__speed
+c = car()
+c.drive()
+c.start()
+print(c.get_speed())
+
+
+
+class bankaccount:
+    def __init__(self,name):
+        self.name=name
+        self.__balance=1000
+    def get_balance(self):
+        return self.__balance
+    def deposit(self,amount):
+        self.__balance+=amount
+s=bankaccount("shubhangi")
+s.deposit(500)
+print(s.name)
+print(s.get_balance())     
