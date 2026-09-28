@@ -549,7 +549,7 @@ while True:
         print("not prime")
     else:
         for i in range(2,num):
-            if num % 2 == 0:
+            if num % i == 0:
                 print("not prime")
                 break
         else:
@@ -618,7 +618,7 @@ class car(vehical):
     def drive(self):
         self.__speed=100
         print("car is starting")
-
+        
     def get_speed(self):
         return self.__speed
 c = car()
@@ -639,4 +639,5 @@ class bankaccount:
 s=bankaccount("shubhangi")
 s.deposit(500)
 print(s.name)
-print(s.get_balance())     
+print(s.get_balance())    
+

@@ -75,7 +75,8 @@ for i in numbers:
     if i % 2 != 0:
         print(i)
 
-    
+
+  
 
 numbers = [10, 20, 30, 40]
 numbers.reverse()
@@ -137,6 +138,7 @@ for i in numbers:
         odd.append(i)
 print("Even:", even)
 print("Odd:", odd)
+
 
 
 
